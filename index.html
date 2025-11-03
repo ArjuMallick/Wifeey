@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet.css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="Photo cute heart digital art design in v… (1).jpeg" class="corner top-left" alt="corner-img">
+  <img src="undefined.jpeg" class="corner top-right" alt="corner-img">
+  <img src="undefined.jpeg" class="corner bottom-left" alt="corner-img">
+  <img src="Photo cute heart digital art design in v….jpeg" class="corner bottom-right" alt="corner-img">
+  <header>
+    <div class="hearts left"><img src="5.jpeg" width="130px" height="130px" ></div>
+    <h1>For My Pyari Si Cute Si<br>
+        Pagal Si Madam Ji Patni Ji<br>
+        Ke Liye</h1>
+    <div class="hearts right"><img src="5.jpeg" width="130px" height="130px" ></div>
+  </header>
+
+  <main>
+    <!-- Angry Mood -->
+    <section class="mood">
+      <h2>😠 Angry Mood</h2>
+      <div class="card" onclick="playSong('angry')">
+        <img src="3.jpeg" alt="Angry Mood">
+        <p>Tap to play</p>
+      </div>
+    </section>
+
+    <!-- Happy Mood -->
+    <section class="mood">
+      <h2>😊 Happy Mood</h2>
+      <div class="card" onclick="playSong('happy')">
+        <img src="1.jpeg" alt="Happy Mood">
+        <p>Tap to play</p>
+      </div>
+    </section>
+
+    <!-- Sad Mood -->
+    <section class="mood">
+      <h2>😢 Sad Mood</h2>
+      <div class="card" onclick="playSong('sad')">
+        <img src="2.jpeg" alt="Sad Mood">
+        <p>Tap to play</p>
+      </div>
+    </section>
+
+    <!-- Romantic Mood -->
+    <section class="mood">
+      <h2>💖 Romantic Mood</h2>
+      <div class="card" onclick="playSong('romantic')">
+        <img src="4.jpeg" alt="Romantic Mood">
+        <p>Tap to play</p>
+      </div>
+    </section>
+  </main>
+    <footer>
+    <button id="specialBtn" onclick="playSpecial()">💞 Only For You 💞</button>
+  </footer>
+
+  <audio id="angry" src="songs/angry.mp3"></audio>
+  <audio id="happy" src="songs/happy.mp3"></audio>
+  <audio id="sad" src="songs/sad.mp3"></audio>
+  <audio id="romantic" src="songs/romantic.mp3"></audio>
+  <audio id="special" src="WhatsApp Audio 2025-11-02 at 23.07.18_c911413e.dat.unknown"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
